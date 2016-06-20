@@ -12,6 +12,6 @@
    <property name="show_sql">false</property>
    <property name="hibernate.enable_lazy_load_no_trans">true</property>
 
-<mapping class = "com.hibernateWeb.Beans.Studentbean" />
+<mapping class = "com.hibernateWeb.Beans.StudentBean" />
 </session-factory>
 </hibernate-configuration>

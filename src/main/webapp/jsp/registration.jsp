@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -8,7 +8,7 @@
 </head>
 <body>
 <h1>Registration Form</h1>
-<form name="registration_form" action="StudentRegistration" method="post">
+<form name="registration_form" action="/StudentRegistration" method="post">
 <table>
 <tr>
 <td>First Name : </td>
@@ -33,11 +33,13 @@
 <tr>
 <td>Mobile No : </td>
 <td><input type="number" name="mobile_no" /></td>
+<input type="hidden" name="insert">
 </tr>
 <tr>
 <td colspan="2"><input type="submit" value="submit" /></td>
 </table>
 </form>
+
 
 
 </body>

@@ -29,7 +29,7 @@ public class StudentBean {
 	private String email;
 	
 	@Column(name = StudentBeanConstants.MOBILE_NO)
-	private long mobileNo;
+	private String mobileNo;
 	
 	@Column(name = StudentBeanConstants.PASSWORD)
 	private String password;
@@ -78,10 +78,10 @@ public class StudentBean {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	public long getMobileNo() {
+	public String getMobileNo() {
 		return mobileNo;
 	}
-	public void setMobileNo(long mobileNo) {
+	public void setMobileNo(String mobileNo) {
 		this.mobileNo = mobileNo;
 	}
 	public String getPassword() {

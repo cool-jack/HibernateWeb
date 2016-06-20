@@ -2,7 +2,7 @@ package com.hibernateWeb.TableConstants;
 
 public interface StudentBeanConstants {
 
-	String TABLE_NAME = "student";
+	String TABLE_NAME = "student1";
 	
 	
 	String ID = "id";
